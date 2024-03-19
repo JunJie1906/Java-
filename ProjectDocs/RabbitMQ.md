@@ -1,13 +1,5 @@
 RabbitMQ 是一个由 Erlang 语言开发的 AMQP 的开源实现。Erlang是为电话交换机编写的语言，天然对分布式和高并发支持良好。
 
-```java
-public void main(){
-    System.out.println("Hello");
-}
-```
-
-
-
 # RabbitMQ特点
 RabbitMQ 最初起源于金融系统，用于在分布式系统中存储转发消息，在易用性、扩展性、高可用性等方面表现非常优异。具体有以下特点：
 
