@@ -3,35 +3,35 @@
     - 基础
     - 集合
       - List
-      - [HashMap](/ProjectDocs/hashmap.md)
-    - JVM
+      - [HashMap](/docs/hashmap.md)
+    - [JVM](/docs/jvm.md)
       - 内存分布
-    - [并发](/ProjectDocs/jvm.md)
+    - [并发](/docs/bingfa.md)
       - volatile
       - synchronized
       - JUC
         - ConcurrentHashMap
   - 数据库
-    - [MySQL](/ProjectDocs/MySQL.md)
-    - [Redis](/ProjectDocs/redis.md)
+    - [MySQL](/docs/MySQL.md)
+    - [Redis](/docs/redis.md)
   - Spring系列框架
-    - [Spring](/ProjectDocs/spring.md)
-    - [SpringMVC](/ProjectDocs/springmvc.md)
-    - [SpringBoot](/ProjectDocs/springboot.md)
-  - [设计模式](/ProjectDocs/designpatten.md)
+    - [Spring](/docs/spring.md)
+    - [SpringMVC](/docs/springmvc.md)
+    - [SpringBoot](/docs/springboot.md)
+  - [设计模式](/docs/designpatten.md)
     - 单例模式
     - 工厂模式
     - 策略模式
     - 适配器模式
   - 计算机基础
-    - [计算机网络](/ProjectDocs/network.md)
-    - [操作系统](/ProjectDocs/os.md)
-    - [Linux常用命令](/ProjectDocs/linux.md)
+    - [计算机网络](/docs/network.md)
+    - [操作系统](/docs/os.md)
+    - [Linux常用命令](/docs/linux.md)
   - 消息队列
-    - [Kafka](/ProjectDocs/kafka.md)
-    - [RocketMQ](/ProjectDocs/rocketmq.md)
+    - [Kafka](/docs/kafka.md)
+    - [RocketMQ](/docs/rocketmq.md)
   - 分布式
-    - [概念](/ProjectDocs/分布式微服务.md)
+    - [概念](/docs/分布式微服务.md)
 
 - 项目常见问题
 
