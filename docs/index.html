@@ -32,7 +32,10 @@
             width: 100%;
         }
     </style>
+    <!--    目录-->
+    <!--    <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.0.0/dist/toc.css">-->
 
+    <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
 </head>
 
 <body>
@@ -76,8 +79,37 @@
             color: 'rgb(90,90,90)',
             language: 'chinese'
         },
+        toc: {
+            tocMaxLevel: 5,
+            target: 'h1, h2, h3, h4, h5, h6',
+            ignoreHeaders: ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+        },
+        'flexible-alerts': {
+            note: {
+                label: "说明"
+            },
+            tip: {
+                label: "提示"
+            },
+            warning: {
+                label: "注意"
+            },
+            attention: {
+                label: "警告"
+            }
+        },
+        progress: {
+            position: "top",
+            color: "var(--theme-color,#42b983)",
+            height: "3px",
+        },
     };
 </script>
+
+
+
+
+
 <!-- docsify的js依赖 -->
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <!-- emoji表情支持 -->
@@ -96,9 +128,33 @@
 <!--统计字数-->
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 
+<!--目录-->
+<!--<script src="https://unpkg.com/docsify-toc@1.0.0/dist/toc.js"></script>-->
+<script src="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
+
 <!-- 侧栏折叠 -->
 <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 <link rel="stylesheet" href="//unpkg.com/docsify-sidebar-collapse/dist/sidebar.min.css"/>
+
+<!--进度条-->
+<!--<script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>-->
+<script src="js/progress.min.js"></script>
+<!--alert-->
+<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+
+<!-- backTop -->
+<!--<script src="https://cdn.jsdelivr.net/gh/Sumsung524/docsify-backTop/dist/docsify-backTop.min.js"></script>-->
+<script src="js/docsify-backTop.min.js"></script>
+<script>
+    docsifyBackTop = {
+        size: 32,
+        bottom: 15,
+        right: 15,
+        logo: '<svg t="1662288563130" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3633" width="200" height="200"><path d="M513 103.7c-226.1 0-409.4 183.3-409.4 409.4S286.9 922.6 513 922.6s409.4-183.3 409.4-409.4S739.1 103.7 513 103.7z m153.5 364.7c-5.2 5.3-12.1 7.9-19 7.9s-13.8-2.6-19-7.9L545.1 385c0 0.4 0.1 0.7 0.1 1.1V705c0 11.1-5.7 20.9-14.4 26.6-4.7 4.2-10.9 6.7-17.7 6.7-6.8 0-13-2.5-17.7-6.7-8.7-5.7-14.4-15.5-14.4-26.6V386.1c0-0.4 0-0.7 0.1-1.1l-83.4 83.4c-10.5 10.5-27.5 10.5-38 0s-10.5-27.5 0-38L494 295.9c10.5-10.5 27.5-10.5 38 0l134.5 134.5c10.5 10.4 10.5 27.5 0 38z" fill="#2096ff" p-id="3634"></path></svg>',
+        bgColor: ''
+    };
+</script>
+
 </body>
 
 </html>
